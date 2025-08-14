@@ -1,6 +1,11 @@
 { pkgs, ... }:
 
 {
+  # Modules.
+  imports = [
+    ./hardware-configuration.nix
+  ];
+
   # Some stuff that should exist independently.
   system.stateVersion = "25.05";
   nixpkgs.config.allowUnfree = true;
@@ -70,6 +75,9 @@
     jack.enable = true;
     wireplumber.enable = true;
   };
+
+  # Graphics.
+  hardware.graphics.enable = true;
 
   # Display manager and desktop environment stuff.
   services.displayManager.ly.enable = true;

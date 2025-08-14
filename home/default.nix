@@ -31,7 +31,9 @@
     ./eza.nix
     ./fzf.nix
     ./fish.nix
+    ./git.nix
     ./ghostty.nix
+    ./helix.nix
     ./yazi.nix
     ./zoxide.nix
   ];

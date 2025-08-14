@@ -3,7 +3,7 @@
     enable = true;
     defaultEditor = true;
     settings = {
-      theme = "ayu_mirage";
+      theme = "base16_transparent";
       editor = {
         bufferline = "multiple";
         color-modes = true;
@@ -14,7 +14,6 @@
         idle-timeout = 200;
         end-of-line-diagnostics = "hint";
         file-picker.hidden = false;
-        rainbow-brackets = true;
         statusline = {
           left = [
             "mode"

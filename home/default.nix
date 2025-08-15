@@ -8,6 +8,7 @@
   home.packages = [
     pkgs.fd
     pkgs.librewolf
+    pkgs.mpv
     pkgs.podman-compose
     pkgs.unzip
     pkgs.unrar

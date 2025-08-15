@@ -6,6 +6,7 @@
   home.homeDirectory = "/home/nixosvm";
   home.stateVersion = "25.05";
   home.packages = [
+    pkgs.fd
     pkgs.librewolf
     pkgs.podman-compose
     pkgs.unzip

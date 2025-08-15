@@ -59,7 +59,7 @@
         for pkg in $argv
           set -a pkgs nixpkgs#$pkg
         end
-        nom shell $pkgs --command fish
+        nix shell $pkgs --command fish
       '';
     };
   };

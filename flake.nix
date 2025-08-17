@@ -13,7 +13,7 @@
       pkgs = import nixpkgs { inherit system; };
     in
     {
-      nixosConfigurations.vmware = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.nixosvm = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [ ./host ];
       };
